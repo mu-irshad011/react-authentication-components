@@ -6,21 +6,21 @@ A reusable authentication form component for React.
 
 To install the `react-authentication-component` package, run the following command:
 
-````bash
+```bash
 npm install react-authentication-component
-````
+```
 
 ## Usage
 
 Import the `Form` component from `react-authentication-component` and use it in your React application.
 
 ```jsx
-import React from "react";
-import {Form, yup} from "react-authentication-component";
+import React from 'react'
+import { Form, yup } from 'react-authentication-component'
 
 const handleFormSubmit = (values) => {
   // Handle form submission logic here
-};
+}
 
 const App = () => {
   return (
@@ -28,17 +28,17 @@ const App = () => {
       <h1>Login Page</h1>
       <Form
         onSubmit={handleFormSubmit}
-        fields={["email", "password"]}
+        fields={['email', 'password']}
         validationSchema={yourValidationSchema}
-        fieldClasses={["field-class", "field-class"]}
-        cardClass="card-container"
-        buttonClass="submit-button"
+        fieldClasses={['field-class', 'field-class']}
+        cardClass='card-container'
+        buttonClass='submit-button'
       />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
 ```
 
 ## Props
@@ -62,8 +62,8 @@ To apply custom styles to individual fields, use the `fieldClasses` prop. Pass a
 
 ```jsx
 <Form
-  fields={["email", "password"]}
-  fieldClasses={["email-field", "password-field"]}
+  fields={['email', 'password']}
+  fieldClasses={['email-field', 'password-field']}
 />
 ```
 
@@ -72,7 +72,7 @@ To apply custom styles to individual fields, use the `fieldClasses` prop. Pass a
 To apply styles to the container or card element wrapping the form, use the `cardClass` prop. Provide a class name that represents the desired styling for the card. For example:
 
 ```jsx
-<Form cardClass="card-container" />
+<Form cardClass='card-container' />
 ```
 
 ### Button Styling
@@ -80,7 +80,7 @@ To apply styles to the container or card element wrapping the form, use the `car
 To style the submit button, use the `buttonClass` prop. Provide a class name to apply custom styles to the button. For example:
 
 ```jsx
-<Form buttonClass="submit-button" />
+<Form buttonClass='submit-button' />
 ```
 
 You can define your custom styles in CSS files or CSS modules and import them into your project.
@@ -91,4 +91,4 @@ For more usage examples, refer to the [examples folder](https://github.com/mu-ir
 
 ## License
 
-MIT © [https://github.com/mu-irshad011](https://github.com/https://github.com/mu-irshad011)
+MIT © [https://github.com/mu-irshad011](https://github.com/mu-irshad011)
