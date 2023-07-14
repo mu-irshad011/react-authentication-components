@@ -87,7 +87,7 @@ You can define your custom styles in CSS files or CSS modules and import them in
 
 ## Examples
 
-For more usage examples, refer to the [examples folder](https://github.com/mu-irshad011/react-authentication-components/tree/main/src/example) in the GitHub repository.
+For more usage examples, refer to the [examples folder](https://github.com/mu-irshad011/react-authentication-components/tree/main/example) in the GitHub repository.
 
 ## License
 
